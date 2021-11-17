@@ -1,0 +1,1 @@
+vm.blogs = response.data.filter(blog => vm.user.tags.includes(blog.tag))
